@@ -1,6 +1,6 @@
 {
   "name": "@talon-cli/create",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publishConfig": {
     "access": "public"
   },
@@ -12,5 +12,18 @@
   },
   "keywords": [],
   "author": "lengyue0909",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "@talon-cli/utils": "workspace:^",
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0"
+  }
 }
