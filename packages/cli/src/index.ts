@@ -3,9 +3,10 @@ import create from "@talon-cli/create";
 import { Command } from "commander";
 import fse from "fs-extra";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const pkgJson = fse.readJSONSync(
-  path.join(import.meta.dirname, "../package.json")
+  path.join(path.dirname(fileURLToPath(import.meta.url)), "../package.json")
 );
 
 const program = new Command();
