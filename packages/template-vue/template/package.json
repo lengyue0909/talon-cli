@@ -1,5 +1,6 @@
 {
-  "name": "vite-vue-starter",
+  "name": "<%= projectName %>",
+  "description": "脚手架创建的 <%= projectName %> 项目",
   "private": true,
   "version": "0.0.0",
   "type": "module",
