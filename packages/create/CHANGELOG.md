@@ -1,5 +1,11 @@
 # @talon-cli/create
 
+## 1.2.0
+
+### Minor Changes
+
+- create 命令为模板增加可选配置选项
+
 ## 1.1.0
 
 ### Minor Changes

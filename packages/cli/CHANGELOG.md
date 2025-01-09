@@ -1,5 +1,12 @@
 # @talon-cli/cli
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @talon-cli/create@1.2.0
+
 ## 1.1.0
 
 ### Minor Changes
